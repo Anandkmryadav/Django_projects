@@ -11,4 +11,5 @@ def home(request):
         {'name': 'Abhishek kumar','age' :16},
         {'name': 'Sandeep ','age' :63},
     ]
-    return render(request , "test.html" , context={"peoples" :peoples})
+    return render(request , "test.html" , context={"peoples" :peoples}) 
+# sdfkgbsdfh
